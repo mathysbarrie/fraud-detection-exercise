@@ -1,75 +1,77 @@
 # Fraud Detection Exercise
 
-Exercice technique de 90 minutes - Implémentation d'un worker de scoring de fraude.
+90-minute technical exercise – Implementing a fraud scoring worker.
 
 ## Quick Start
 
 ```bash
-# 1. Lancer Redis
+# 1. Start Redis
 docker-compose up -d
 
-# 2. Installer les dépendances
+# 2. Install dependencies
 npm install
 
-# 3. Lancer le worker (après implémentation)
+# 3. Run the worker (after implementation)
 npm run dev
 
-# 4. Trigger des commandes de test
+# 4. Trigger test orders
 npm run trigger-order
 
-# 5. Lancer les tests
+# 5. Run tests
 npm test
-```
 
-## Instructions
+Instructions
 
-Voir **SPEC_EXERCICE.md** pour les instructions completes.
+See SPEC_EXERCICE.md for full instructions.
 
----
+⸻
 
-## Soumettre ton travail
+Submitting your work
 
-### Option A : Fork + Pull Request (recommande)
+Option A: Fork + Pull Request (recommended)
+	1.	Fork this repo to your GitHub account
+	2.	Clone your fork:
 
-1. **Fork** ce repo sur ton compte GitHub
-2. Clone ton fork :
-   ```bash
-   git clone https://github.com/<ton-username>/fraud-detection-exercise.git
-   ```
-3. Cree une branche pour ton travail :
-   ```bash
-   git checkout -b feat/risk-scoring-worker
-   ```
-4. Code, commit regulierement (commits atomiques)
-5. Push ta branche :
-   ```bash
-   git push origin feat/risk-scoring-worker
-   ```
-6. Cree une **Pull Request** sur ton fork
-7. Envoie le lien de ta PR par email
+git clone https://github.com/<your-username>/fraud-detection-exercise.git
 
-### Option B : Acces collaborateur
 
-Si on t'a ajoute comme collaborateur sur ce repo :
+	3.	Create a branch for your work:
 
-1. Clone directement :
-   ```bash
-   git clone https://github.com/mathysbarrie/fraud-detection-exercise.git
-   ```
-2. Cree ta branche :
-   ```bash
-   git checkout -b feat/risk-scoring-worker-<ton-prenom>
-   ```
-3. Code, commit, push
-4. Cree une **Pull Request** vers `main`
+git checkout -b feat/risk-scoring-worker
 
----
 
-## Livrables attendus
+	4.	Code and commit regularly (small atomic commits)
+	5.	Push your branch:
 
-- [ ] `PLAN.md` complete (avant de coder)
-- [ ] `src/services/risk-scoring.service.ts` implemente
-- [ ] `src/workers/risk-scoring.worker.ts` implemente
-- [ ] `tests/risk-scoring.test.ts` avec minimum 5 tests
-- [ ] Commits atomiques avec messages clairs
-- [ ] PR avec description (What/Why/How)
+git push origin feat/risk-scoring-worker
+
+
+	6.	Create a Pull Request on your fork
+	7.	Send the PR link by email
+
+Option B: Collaborator access
+
+If we added you as a collaborator on this repo:
+	1.	Clone directly:
+
+git clone https://github.com/mathysbarrie/fraud-detection-exercise.git
+
+
+	2.	Create your branch:
+
+git checkout -b feat/risk-scoring-worker-<your-name>
+
+
+	3.	Code, commit, push
+	4.	Create a Pull Request to main
+
+⸻
+
+Expected deliverables
+	•	PLAN.md completed (before coding)
+	•	src/services/risk-scoring.service.ts implemented
+	•	src/workers/risk-scoring.worker.ts implemented
+	•	tests/risk-scoring.test.ts with at least 5 tests
+	•	Atomic commits with clear messages
+	•	PR with a proper description (What/Why/How)
+
