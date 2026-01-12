@@ -6,4 +6,4 @@ coverage/
 .DS_Store
 
 # Evaluation grid (do not share with candidates)
-GRILLE_EVALUATION.md
+EVALUATION_GRID.md

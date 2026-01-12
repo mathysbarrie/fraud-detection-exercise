@@ -1,7 +1,7 @@
 {
   "name": "fraud-detection-exercise",
   "version": "1.0.0",
-  "description": "Exercice technique - Pipeline de detection de fraude",
+  "description": "Technical exercise - Fraud detection pipeline",
   "scripts": {
     "dev": "ts-node src/workers/risk-scoring.worker.ts",
     "test": "jest",
